@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "include": [
+    ".react-router/types/**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDirs": [
+      ".",
+      "./.react-router/types"
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
